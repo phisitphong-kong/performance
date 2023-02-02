@@ -1,0 +1,16 @@
+CRITICAL - 2023-01-31 22:44:08 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\Employ.php on line 39.
+ 1 APPPATH\Controllers\Employ.php(39): date('Y-m-d', '2023-02-09')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-31 22:58:58 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\Employ.php on line 51.
+ 1 APPPATH\Controllers\Employ.php(51): date('Y-m-d', '2023-02-25')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

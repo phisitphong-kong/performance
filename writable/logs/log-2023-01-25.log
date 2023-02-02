@@ -1,0 +1,737 @@
+CRITICAL - 2023-01-25 00:02:52 --> Undefined variable $table_em
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_em', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:06:11 --> Undefined variable $table_em
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_em', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:06:30 --> Undefined variable $table_em
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_em', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:07:53 --> Undefined variable $table_em
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_em', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:08:07 --> Undefined variable $table_em
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_em', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:08:40 --> Undefined variable $table_em
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $table_em', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:12:37 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 22.
+ 1 APPPATH\Controllers\Employ.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:13:13 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 21.
+ 1 APPPATH\Controllers\Employ.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:14:07 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 21.
+ 1 APPPATH\Controllers\Employ.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:14:43 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 21.
+ 1 APPPATH\Controllers\Employ.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:17:16 --> view(): Argument #3 ($options) must be of type array, string given, called in C:\xampp\htdocs\Emeeting_sys\app\Controllers\Employ.php on line 23
+in SYSTEMPATH\Common.php on line 1121.
+ 1 APPPATH\Controllers\Employ.php(23): view('show', [...], '1977079')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:31:36 --> Undefined variable $NameModel
+in APPPATH\Views\show.php on line 39.
+ 1 APPPATH\Views\show.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $NameModel', 'APPPATH\\Views\\show.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:31:37 --> Undefined variable $NameModel
+in APPPATH\Views\show.php on line 39.
+ 1 APPPATH\Views\show.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $NameModel', 'APPPATH\\Views\\show.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:31:39 --> Undefined variable $NameModel
+in APPPATH\Views\show.php on line 39.
+ 1 APPPATH\Views\show.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $NameModel', 'APPPATH\\Views\\show.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:36:08 --> Undefined variable $NameModel
+in APPPATH\Controllers\Employ.php on line 14.
+ 1 APPPATH\Controllers\Employ.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $NameModel', 'APPPATH\\Controllers\\Employ.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:36:10 --> Undefined variable $NameModel
+in APPPATH\Controllers\Employ.php on line 14.
+ 1 APPPATH\Controllers\Employ.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $NameModel', 'APPPATH\\Controllers\\Employ.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:36:26 --> Undefined variable $NameModel
+in APPPATH\Controllers\Employ.php on line 14.
+ 1 APPPATH\Controllers\Employ.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $NameModel', 'APPPATH\\Controllers\\Employ.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:36:32 --> Undefined variable $data
+in APPPATH\Controllers\Employ.php on line 16.
+ 1 APPPATH\Controllers\Employ.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Employ.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:41:31 --> Undefined array key "salary"
+in APPPATH\Views\show.php on line 34.
+ 1 APPPATH\Views\show.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "salary"', 'APPPATH\\Views\\show.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(21): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:42:23 --> Undefined array key "salary"
+in APPPATH\Views\show.php on line 34.
+ 1 APPPATH\Views\show.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "salary"', 'APPPATH\\Views\\show.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 00:42:57 --> Undefined variable $total
+in APPPATH\Views\show.php on line 34.
+ 1 APPPATH\Views\show.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'APPPATH\\Views\\show.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 01:13:36 --> Undefined array key "id_emp"
+in APPPATH\Views\show.php on line 25.
+ 1 APPPATH\Views\show.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_emp"', 'APPPATH\\Views\\show.php', 25)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 01:14:25 --> Undefined variable $employ
+in APPPATH\Views\show.php on line 27.
+ 1 APPPATH\Views\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employ', 'APPPATH\\Views\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 01:14:55 --> Undefined array key "id_emp"
+in APPPATH\Views\show.php on line 27.
+ 1 APPPATH\Views\show.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_emp"', 'APPPATH\\Views\\show.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(20): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:08:10 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 19.
+ 1 APPPATH\Controllers\Employ.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:08:22 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 19.
+ 1 APPPATH\Controllers\Employ.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:12:47 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Employ.php on line 22.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Employ/total')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Employ/total')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('Employ/total')
+ 4 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:13:00 --> Undefined variable $sum
+in APPPATH\Controllers\Employ.php on line 21.
+ 1 APPPATH\Controllers\Employ.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Controllers\\Employ.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:17:35 --> Undefined variable $total
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:17:35 --> Undefined variable $total
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 APPPATH\Controllers\Employ.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'APPPATH\\Controllers\\Employ.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:17:56 --> Cannot use object of type App\Models\Employee as array
+in APPPATH\Controllers\Employ.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:18:51 --> Call to a member function orderBy() on array
+in APPPATH\Controllers\Employ.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:20:36 --> Attempt to read property "and" on array
+in APPPATH\Controllers\Employ.php on line 19.
+ 1 APPPATH\Controllers\Employ.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "and" on array', 'APPPATH\\Controllers\\Employ.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:22:08 --> Undefined variable $sum
+in APPPATH\Views\test.php on line 1.
+ 1 APPPATH\Views\test.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\test.php', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Employ.php(22): view('test', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:27:07 --> Undefined variable $sum
+in APPPATH\Views\show.php on line 44.
+ 1 APPPATH\Views\show.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\show.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(27): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:27:27 --> Undefined variable $sum
+in APPPATH\Views\show.php on line 44.
+ 1 APPPATH\Views\show.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\show.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(27): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:27:28 --> Undefined variable $sum
+in APPPATH\Views\show.php on line 44.
+ 1 APPPATH\Views\show.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\show.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(27): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:27:37 --> Undefined variable $sum
+in APPPATH\Views\show.php on line 44.
+ 1 APPPATH\Views\show.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sum', 'APPPATH\\Views\\show.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(28): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:34:46 --> Call to undefined function App\Controllers\generate()
+in APPPATH\Controllers\Employ.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:34:53 --> Call to undefined function App\Controllers\generate()
+in APPPATH\Controllers\Employ.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->total()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:41:14 --> Undefined variable $em
+in APPPATH\Views\show.php on line 24.
+ 1 APPPATH\Views\show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\show.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(30): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:41:27 --> Undefined variable $em
+in APPPATH\Views\show.php on line 24.
+ 1 APPPATH\Views\show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\show.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(31): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:41:36 --> Undefined variable $em
+in APPPATH\Views\show.php on line 24.
+ 1 APPPATH\Views\show.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\show.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(32): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 02:51:25 --> Undefined variable $total
+in APPPATH\Views\show.php on line 43.
+ 1 APPPATH\Views\show.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total', 'APPPATH\\Views\\show.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(32): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:00:03 --> Array to string conversion
+in APPPATH\Views\revenue.php on line 26.
+ 1 APPPATH\Views\revenue.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\revenue.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\revenue.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue', [], true)
+ 5 APPPATH\Controllers\Revenue.php(14): view('revenue')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:00:29 --> Class "App\Controllers\Reven" not found
+in APPPATH\Controllers\Revenue.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:01:14 --> Class "App\Controllers\Reven" not found
+in APPPATH\Controllers\Revenue.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:01:29 --> Class "App\Controllers\Reven" not found
+in APPPATH\Controllers\Revenue.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:07:10 --> Invalid file: revenue_show.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('revenue_show.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue_show', [], true)
+ 3 APPPATH\Controllers\Revenue.php(18): view('revenue_show')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->reven_show()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:09:19 --> Invalid file: revenue_show.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('revenue_show.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue_show', [], true)
+ 3 APPPATH\Controllers\Revenue.php(18): view('revenue_show')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->reven_show()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:10:54 --> Invalid file: revenue_show.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('revenue_show.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue_show', [], true)
+ 3 APPPATH\Controllers\Revenue.php(18): view('revenue_show')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->reven_show()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:10:56 --> Invalid file: revenue_show.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('revenue_show.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue_show', [], true)
+ 3 APPPATH\Controllers\Revenue.php(18): view('revenue_show')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->reven_show()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:11:55 --> Invalid file: revenue_show.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('revenue_show.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue_show', [], true)
+ 3 APPPATH\Controllers\Revenue.php(14): view('revenue_show')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:12:27 --> Invalid file: revenue_show.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('revenue_show.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue_show', [], true)
+ 3 APPPATH\Controllers\Revenue.php(14): view('revenue_show')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 04:32:04 --> Undefined variable $re_goal
+in APPPATH\Views\revenue.php on line 44.
+ 1 APPPATH\Views\revenue.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $re_goal', 'APPPATH\\Views\\revenue.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\revenue.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue', [], true)
+ 5 APPPATH\Controllers\Revenue.php(14): view('revenue')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:16:02 --> Undefined array key "id_re"
+in APPPATH\Views\marketshow.php on line 26.
+ 1 APPPATH\Views\marketshow.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_re"', 'APPPATH\\Views\\marketshow.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(20): view('marketshow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:30:02 --> Class "App\Controllers\RevenueTable" not found
+in APPPATH\Controllers\Marketing.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:30:21 --> Class "App\Controllers\RevenueTable" not found
+in APPPATH\Controllers\Marketing.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:30:32 --> Class "App\Controllers\RevenueTable" not found
+in APPPATH\Controllers\Marketing.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:30:39 --> Undefined variable $possible
+in APPPATH\Views\marketshow.php on line 37.
+ 1 APPPATH\Views\marketshow.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $possible', 'APPPATH\\Views\\marketshow.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(22): view('marketshow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:34:43 --> Undefined property: CodeIgniter\View\View::$request
+in APPPATH\Views\marketshow.php on line 38.
+ 1 APPPATH\Views\marketshow.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$request', 'APPPATH\\Views\\marketshow.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(26): view('marketshow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:34:59 --> Array callback must have exactly two elements
+in APPPATH\Views\marketshow.php on line 38.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 4 APPPATH\Controllers\Marketing.php(26): view('marketshow', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:42:54 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 32768 bytes)
+in APPPATH\Views\marketshow.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-25 21:53:22 --> Undefined variable $mar
+in APPPATH\Views\marketshow.php on line 23.
+ 1 APPPATH\Views\marketshow.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mar', 'APPPATH\\Views\\marketshow.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(30): view('marketshow')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->calper()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 21:53:49 --> Undefined variable $mar
+in APPPATH\Views\marketshow.php on line 23.
+ 1 APPPATH\Views\marketshow.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mar', 'APPPATH\\Views\\marketshow.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(31): view('marketshow')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->calper()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:07:15 --> Undefined variable $mar
+in APPPATH\Views\marketshow.php on line 28.
+ 1 APPPATH\Views\marketshow.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mar', 'APPPATH\\Views\\marketshow.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(37): view('marketshow')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->calper()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:27:46 --> Undefined array key "name_mar"
+in APPPATH\Controllers\Marketing.php on line 51.
+ 1 APPPATH\Controllers\Marketing.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_mar"', 'APPPATH\\Controllers\\Marketing.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:29:01 --> Undefined array key "name_mar"
+in APPPATH\Controllers\Marketing.php on line 51.
+ 1 APPPATH\Controllers\Marketing.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_mar"', 'APPPATH\\Controllers\\Marketing.php', 51)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:30:04 --> Call to undefined function reidrect()
+in APPPATH\Views\marketshow.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 4 APPPATH\Controllers\Marketing.php(60): view('marketshow', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:31:29 --> Call to undefined function App\Controllers\reidrect()
+in APPPATH\Controllers\Marketing.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:31:31 --> Call to undefined function App\Controllers\reidrect()
+in APPPATH\Controllers\Marketing.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:31:50 --> Call to undefined function App\Controllers\reidrect()
+in APPPATH\Controllers\Marketing.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:32:08 --> Call to undefined function App\Controllers\reidrect()
+in APPPATH\Controllers\Marketing.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:32:15 --> Call to undefined function App\Controllers\reidrect()
+in APPPATH\Controllers\Marketing.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:33:17 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH\Views\marketshow.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 4 APPPATH\Controllers\Marketing.php(26): view('marketshow', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 22:33:18 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH\Views\marketshow.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 4 APPPATH\Controllers\Marketing.php(26): view('marketshow', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 23:17:55 --> Undefined variable $session
+in APPPATH\Views\marketshow.php on line 16.
+ 1 APPPATH\Views\marketshow.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Views\\marketshow.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(27): view('marketshow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-25 23:19:39 --> Undefined variable $session
+in APPPATH\Controllers\Marketing.php on line 21.
+ 1 APPPATH\Controllers\Marketing.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Marketing.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

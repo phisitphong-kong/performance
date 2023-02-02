@@ -1,0 +1,599 @@
+CRITICAL - 2023-01-24 00:53:37 --> Undefined variable $imagename
+in APPPATH\Controllers\Register.php on line 60.
+ 1 APPPATH\Controllers\Register.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagename', 'APPPATH\\Controllers\\Register.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Register->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:54:25 --> Undefined variable $imagename
+in APPPATH\Controllers\Register.php on line 60.
+ 1 APPPATH\Controllers\Register.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagename', 'APPPATH\\Controllers\\Register.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Register->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 00:58:06 --> Undefined variable $imagename
+in APPPATH\Controllers\Register.php on line 60.
+ 1 APPPATH\Controllers\Register.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagename', 'APPPATH\\Controllers\\Register.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Register->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:04:10 --> Undefined variable $imagename
+in APPPATH\Controllers\Register.php on line 60.
+ 1 APPPATH\Controllers\Register.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagename', 'APPPATH\\Controllers\\Register.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Register->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:07:56 --> Undefined variable $imagename
+in APPPATH\Controllers\Register.php on line 60.
+ 1 APPPATH\Controllers\Register.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagename', 'APPPATH\\Controllers\\Register.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Register->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:17:35 --> Undefined variable $imagename
+in APPPATH\Controllers\Register.php on line 60.
+ 1 APPPATH\Controllers\Register.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imagename', 'APPPATH\\Controllers\\Register.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Register->save()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:37:37 --> Call to a member function isValid() on null
+in APPPATH\Controllers\NamesCrud.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:38:50 --> Call to a member function isValid() on null
+in APPPATH\Controllers\NamesCrud.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:42:54 --> Call to a member function isValid() on null
+in APPPATH\Controllers\NamesCrud.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:49:38 --> Call to a member function isValid() on null
+in APPPATH\Controllers\NamesCrud.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:58:44 --> Undefined variable $imageName
+in APPPATH\Controllers\NamesCrud.php on line 38.
+ 1 APPPATH\Controllers\NamesCrud.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\NamesCrud.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:59:28 --> Undefined variable $imageName
+in APPPATH\Controllers\NamesCrud.php on line 38.
+ 1 APPPATH\Controllers\NamesCrud.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\NamesCrud.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 01:59:55 --> Undefined variable $imageName
+in APPPATH\Controllers\NamesCrud.php on line 38.
+ 1 APPPATH\Controllers\NamesCrud.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\NamesCrud.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 02:01:33 --> Undefined variable $imageName
+in APPPATH\Controllers\NamesCrud.php on line 38.
+ 1 APPPATH\Controllers\NamesCrud.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\NamesCrud.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 02:01:46 --> Undefined variable $imageName
+in APPPATH\Controllers\NamesCrud.php on line 38.
+ 1 APPPATH\Controllers\NamesCrud.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageName', 'APPPATH\\Controllers\\NamesCrud.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\NamesCrud->edit('11')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NamesCrud))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 02:40:26 --> Class "App\Controllers\Uploadpdf" not found
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Upload->upload_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 02:43:08 --> Class "App\Controllers\Uploadpdf" not found
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Upload->upload_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 02:45:54 --> Class "App\Controllers\Uploadpdf" not found
+in APPPATH\Controllers\Upload.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Upload->upload_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 02:49:10 --> Class "App\Controllers\Uploadpdf" not found
+in APPPATH\Controllers\Upload.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Upload->upload_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 03:02:57 --> Class "App\Controllers\Uploadpdf" not found
+in APPPATH\Controllers\Upload.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Upload->upload_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 03:03:10 --> Class "App\Controllers\Uploadpdf" not found
+in APPPATH\Controllers\Upload.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Upload->upload_pdf()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:18:46 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 36.
+ 1 APPPATH\Views\emp.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:19:14 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 36.
+ 1 APPPATH\Views\emp.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:19:51 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 36.
+ 1 APPPATH\Views\emp.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:19:57 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 36.
+ 1 APPPATH\Views\emp.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:24:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\show.php on line 26.
+ 1 APPPATH\Views\show.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\show.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\show.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('show', [], true)
+ 5 APPPATH\Controllers\Employ.php(37): view('show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 06:24:42 --> mysqli_sql_exception: Unknown column 'user_id' in 'order clause' in C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Emeeting_sys\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Emeeting_sys\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Emeeting_sys\app\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(925): App\Controllers\Employ->show()
+#8 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#9 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Emeeting_sys\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Emeeting_sys\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 06:24:42 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:30:43 --> Unsupported operand types: string * float
+in APPPATH\Controllers\Employ.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 06:30:51 --> mysqli_sql_exception: Unknown column 'user_id' in 'order clause' in C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Emeeting_sys\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Emeeting_sys\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Emeeting_sys\app\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(925): App\Controllers\Employ->show()
+#8 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#9 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Emeeting_sys\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Emeeting_sys\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 06:30:51 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 06:32:59 --> mysqli_sql_exception: Unknown column 'user_id' in 'order clause' in C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Emeeting_sys\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Emeeting_sys\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Emeeting_sys\app\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(925): App\Controllers\Employ->show()
+#8 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#9 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Emeeting_sys\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Emeeting_sys\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 06:32:59 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:33:48 --> Unsupported operand types: string * float
+in APPPATH\Controllers\Employ.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 06:34:03 --> mysqli_sql_exception: Unknown column 'user_id' in 'order clause' in C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Emeeting_sys\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Emeeting_sys\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Emeeting_sys\app\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(925): App\Controllers\Employ->show()
+#8 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#9 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Emeeting_sys\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Emeeting_sys\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 06:34:03 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Employ.php(36): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-24 06:35:54 --> mysqli_sql_exception: Unknown column 'user_id' in 'order clause' in C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Emeeting_sys\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Emeeting_sys\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Emeeting_sys\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Emeeting_sys\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Emeeting_sys\app\Controllers\Employ.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(925): App\Controllers\Employ->show()
+#8 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#9 C:\xampp\htdocs\Emeeting_sys\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Emeeting_sys\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Emeeting_sys\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-01-24 06:35:54 --> Call to a member function getResult() on bool
+in SYSTEMPATH\Model.php on line 241.
+ 1 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Employ.php(19): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->show()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:35:56 --> Invalid file: view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view', [], true)
+ 3 APPPATH\Controllers\Employ.php(14): view('view')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:36:00 --> Invalid file: view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view', [], true)
+ 3 APPPATH\Controllers\Employ.php(14): view('view')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:37:18 --> Invalid file: view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view', [], true)
+ 3 APPPATH\Controllers\Employ.php(14): view('view')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:37:20 --> Invalid file: view.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('view', [], true)
+ 3 APPPATH\Controllers\Employ.php(14): view('view')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:37:34 --> Unsupported operand types: string * float
+in APPPATH\Controllers\Employ.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:41:17 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 36.
+ 1 APPPATH\Views\emp.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:41:47 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 36.
+ 1 APPPATH\Views\emp.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:44:09 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 35.
+ 1 APPPATH\Views\emp.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 06:45:26 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 35.
+ 1 APPPATH\Views\emp.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:10:44 --> Undefined variable $em
+in APPPATH\Views\emp.php on line 37.
+ 1 APPPATH\Views\emp.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $em', 'APPPATH\\Views\\emp.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\emp.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('emp', [], true)
+ 5 APPPATH\Controllers\Employ.php(14): view('emp')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:13:16 --> Unsupported operand types: array * float
+in APPPATH\Controllers\Employ.php on line 26.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:38:28 --> Unsupported operand types: string * float
+in APPPATH\Controllers\Employ.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:39:14 --> Unsupported operand types: string * float
+in APPPATH\Controllers\Employ.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:39:26 --> Unsupported operand types: string * float
+in APPPATH\Controllers\Employ.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:39:38 --> Unsupported operand types: string * float
+in APPPATH\Controllers\Employ.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:40:27 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Employ.php(44): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:41:46 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Employ.php(44): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:42:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Employ.php(45): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:42:25 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 44.
+ 1 APPPATH\Controllers\Employ.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:42:53 --> Array to string conversion
+in APPPATH\Controllers\Employ.php on line 44.
+ 1 APPPATH\Controllers\Employ.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Employ.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:43:18 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Employ.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:44:37 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(660): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Employ.php(47): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:45:49 --> Call to undefined method App\Models\Employee::insert_batch
+in SYSTEMPATH\Model.php on line 807.
+ 1 APPPATH\Controllers\Employ.php(46): CodeIgniter\Model->__call('insert_batch', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:47:35 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Employ.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:47:45 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Employ.php(47): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-24 22:50:28 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 730.
+ 1 SYSTEMPATH\BaseModel.php(730): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Employ.php(48): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->cal()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
