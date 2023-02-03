@@ -58,6 +58,10 @@ $routes->get('deletes/(:num)', 'Revenue::delete_re/$1');
 //marketing
 $routes->get('marketing', 'Marketing::index');
 $routes->get('marketshow', 'Marketing::mar_show');
+
+//Cgs
+$routes->get('cgs', 'Cgs::index');
+$routes->get('del_cgs/(:num)', 'Cgs::del_cgs/$1');
 /*
 * --------------------------------------------------------------------
  * Additional Routing

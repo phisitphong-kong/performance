@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h3>บันทึกรายรับรายจ่าย</h3>
-    <form action="<?= base_url('Revenue/cal')?>" method="post">
+    <h3>บันทึกต้นทุนสินค้า</h3>
+    <form action="<?= base_url('Cgs/cal')?>" method="post">
 <table class="table">
         <thead>
             <tr>
@@ -23,15 +23,15 @@
             </tr>
         </thead>
         <tbody>
-            <?php if($re) :?>
-                <?php foreach($re as $resub) :?>
+            <?php if($csg) :?>
+                <?php foreach($csg as $csg_show) :?>
                     <tr>
-                        <td><?= $resub['dateadd'];?></td>
-                        <td><?= $resub['order_re'];?></td>
-                        <td><?= $resub['goal_re'];?></td>
-                        <td><?= $resub['possible_re'];?></td>
-                        <td <?php if($resub['profitloss_re'] < 0){echo 'style="color:red;"';}else{echo 'style="color:#11ff00;"';}?>><?= $resub['profitloss_re'];?></td>
-                        <td><a href="<?= base_url('deletes/'.$resub['id_re'])?>" class="btn btn-danger">ลบ</a></td>
+                        <td><?= $csg_show['datecgs'];?></td>
+                        <td><?= $csg_show['order_cgs'];?></td>
+                        <td><?= $csg_show['goal_cgs'];?></td>
+                        <td><?= $csg_show['possible_cgs'];?></td>
+                        <td <?php if($csg_show['profitloss_cgs'] < 0){echo 'style="color:red;"';}else{echo 'style="color:#11ff00;"';}?>><?= $csg_show['profitloss_cgs'];?></td>
+                        <td><a href="<?= base_url('del_cgs/'.$csg_show['id_cgs'])?>" class="btn btn-danger">ลบ</a></td>
                     </tr>  
                 <?php endforeach; ?>
             <?php endif; ?>
@@ -45,11 +45,11 @@
     <button type="submit" class="btn btn-primary">บันทึก</button>
     </form>
     <h3>รวมเป้าหมาย</h3>
-    <?php echo $re_goal;?>
+    <?php echo $go_csg;?>
     <h3>รวมที่ทำได้</h3>
-    <?php echo $possible;?>
+    <?php echo $possible_cs;?>
     <h3>รวมขาดเกิน</h3>
-    <?php echo $profit;?>
+    <?php echo $profit_cs;?>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js'></script>
 </body>
@@ -61,10 +61,10 @@
         $('#add').click(function(){
             i++;
             $('#all').append(`<tr id="row`+i+`">
-                <td><input type="month" name="dateadd_re[]" value="<?= set_value('dateadd_re'); ?>"></td>
-                <td><input type="text" name="order_re[]" value="<?= set_value('order_re')?>"></td>
-                <td><input type="text" name="goal_re[]" value="<?= set_value('goal_re')?>"></td>
-                <td><input type="text" name="possible_re[]" value="<?= set_value('possible_re')?>"></td>
+                <td><input type="month" name="date_cgs[]" value="<?= set_value('date_cgs'); ?>"></td>
+                <td><input type="text" name="order_cgs[]" value="<?= set_value('order_cgs')?>"></td>
+                <td><input type="text" name="goal_cgs[]" value="<?= set_value('goal_cgs')?>"></td>
+                <td><input type="text" name="possible_cgs[]" value="<?= set_value('possible_cgs')?>"></td>
                 <td><button type="button" class="btn btn-outline-danger btn_remove" name="remove" id="`+i+`" >ลบ</button></td>
             </tr>`);
         });

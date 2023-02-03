@@ -12,7 +12,7 @@ class Revenue extends Controller
     public function index()
     {
         $NameModel = new RevenueTable();
-        $data['re'] = $NameModel->orderBy('id_re','ASC')->findAll();
+        $data['re'] = $NameModel->select('DATE_FORMAT(dateadd_re,"%M %Y") as dateadd,id_re,order_re,goal_re,possible_re,profitloss_re')->orderBy('id_re','ASC')->findAll();
 
         $go = $NameModel->select('sum(goal_re) as goal')->first();
         $data['re_goal'] = $go['goal'];
@@ -23,22 +23,6 @@ class Revenue extends Controller
         $pr = $NameModel->select('sum(profitloss_re) as pro')->first();
         $data['profit'] = $pr['pro'];
         return view('revenue',$data);
-    }
-    public function re_show()
-    {   
-        $NameModel = new RevenueTable();
-        $data['re'] = $NameModel->orderBy('id_re','ASC')->findAll();
-
-        $e = $NameModel->select('sum(goal_re) as goal')->first();
-        $data['re_goal'] = $e['goal'];
-
-        $e = $NameModel->select('sum(possible_re) as poss')->first();
-        $data['possible'] = $e['poss'];
-
-        $e = $NameModel->select('sum(profitloss_re) as pro')->first();
-        $data['profit'] = $e['pro'];
-
-        return view('revenshow',$data);
     }
     public function cal()
     {   
@@ -56,7 +40,6 @@ class Revenue extends Controller
             'dateadd_re' => date('Y-m-d',$showdate),
         ];
         $main_arr[]=$data;
-        echo 11;
         }
         
         $table_em = new RevenueTable();
