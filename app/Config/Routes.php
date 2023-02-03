@@ -66,6 +66,10 @@ $routes->get('del_cgs/(:num)', 'Cgs::del_cgs/$1');
 //Service
 $routes->get('service', 'Service::index');
 $routes->get('del_ser/(:num)', 'Service::del_ser/$1');
+
+//Sga
+$routes->get('sga', 'Sga::index');
+$routes->get('del_sga/(:num)', 'Sga::del_sga/$1');
 /*
 * --------------------------------------------------------------------
  * Additional Routing

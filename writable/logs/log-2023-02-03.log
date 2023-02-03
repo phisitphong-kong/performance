@@ -580,3 +580,191 @@ in APPPATH\Controllers\Service.php on line 14.
  3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 04:01:33 --> Class "App\Controllers\ServiceTable" not found
+in APPPATH\Controllers\Sga.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 04:01:47 --> Class "App\Controllers\ServiceTable" not found
+in APPPATH\Controllers\Sga.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 04:10:40 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 05:37:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1600.
+ 1 SYSTEMPATH\BaseModel.php(1600): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(854): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(721): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Sga.php(31): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:30:45 --> Undefined array key "total"
+in APPPATH\Controllers\Sga.php on line 50.
+ 1 APPPATH\Controllers\Sga.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total"', 'APPPATH\\Controllers\\Sga.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:45:40 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:46:10 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:46:10 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:46:26 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:46:27 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:47:22 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:48:11 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 59.
+ 1 APPPATH\Controllers\Sga.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:48:48 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 59.
+ 1 APPPATH\Controllers\Sga.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:48:48 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 59.
+ 1 APPPATH\Controllers\Sga.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:49:59 --> Undefined array key "totalgoal"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalgoal"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:49:59 --> Undefined array key "totalgoal"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalgoal"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:50:05 --> Undefined array key "totalgoal"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalgoal"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:50:06 --> Undefined array key "totalgoal"
+in APPPATH\Controllers\Sga.php on line 58.
+ 1 APPPATH\Controllers\Sga.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "totalgoal"', 'APPPATH\\Controllers\\Sga.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:50:28 --> Undefined array key "amount"
+in APPPATH\Controllers\Sga.php on line 59.
+ 1 APPPATH\Controllers\Sga.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'APPPATH\\Controllers\\Sga.php', 59)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-03 06:51:15 --> mysqli_sql_exception: Unknown column 'amount_mar' in 'field list' in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sum(amou...', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sum(amou...')
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sum(amou...')
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT sum(amou...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(267): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\performance\app\Controllers\Sga.php(49): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-02-03 06:51:15 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 267.
+ 1 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Sga.php(49): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 06:55:11 --> Undefined variable $possible
+in APPPATH\Views\marketshow.php on line 13.
+ 1 APPPATH\Views\marketshow.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $possible', 'APPPATH\\Views\\marketshow.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\marketshow.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('marketshow', [], true)
+ 5 APPPATH\Controllers\Marketing.php(32): view('marketshow', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Marketing->mar_show()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marketing))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
