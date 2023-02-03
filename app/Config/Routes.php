@@ -53,6 +53,7 @@ $routes->post('editemp', 'Employ::editemp/$1');
 //revenue
 $routes->get('revenue', 'Revenue::index');
 $routes->get('revenshow', 'Revenue::re_show');
+$routes->get('deletes/(:num)', 'Revenue::delete_re/$1');
 
 //marketing
 $routes->get('marketing', 'Marketing::index');

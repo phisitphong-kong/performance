@@ -10,3 +10,110 @@ in APPPATH\Views\salary.php on line 30.
  8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:32:53 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:33:42 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:34:57 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:35:05 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:35:19 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:36:16 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:37:33 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:38:54 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:38:56 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 APPPATH\Controllers\Revenue.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:39:16 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 43.
+ 1 APPPATH\Controllers\Revenue.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:39:18 --> Undefined array key 1
+in APPPATH\Controllers\Revenue.php on line 43.
+ 1 APPPATH\Controllers\Revenue.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Controllers\\Revenue.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 00:43:45 --> Undefined variable $reven
+in APPPATH\Views\revenue.php on line 32.
+ 1 APPPATH\Views\revenue.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reven', 'APPPATH\\Views\\revenue.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\revenue.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('revenue', [], true)
+ 5 APPPATH\Controllers\Revenue.php(16): view('revenue', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-03 01:15:54 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Revenue.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Revenue->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Revenue))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
