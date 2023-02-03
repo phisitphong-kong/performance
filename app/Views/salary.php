@@ -13,12 +13,13 @@
 <table class="table">
         <thead>
             <tr>
-                <th>id</th>
-                <th>name_emp</th>
-                <th>department_emp</th>
-                <th>position_emp</th>
-                <th>status_emp</th>
-                <th>salary_emp</th>
+                <th>เดือน/ปี</th>
+                <th>ชื่อ</th>
+                <th>แผนก</th>
+                <th>ตำแหน่ง</th>
+                <th>เงินเดือน</th>
+                <th>ค่าประกันสังคม</th>
+                <th>เงินเดือนที่หักประกันสังคม</th>
                 
             </tr>
         </thead>
@@ -26,12 +27,13 @@
             <?php if($em) :?>
                 <?php foreach($em as $employ) :?>
                     <tr>
-                        <td><input type="hidden" name="id_emp[]" value="<?= $employ['id_emp']?>"><?= $employ['id_emp'];?></td>
+                        <td><input type="hidden" name="id_emp[]" value="<?= $employ['id_emp']?>"><?= $employ['datework_emp'];?></td>
                         <td><?php echo $employ['name_emp'];?></td>
                         <td><?php echo $employ['department_emp'];?></td>
                         <td><?php echo $employ['position_emp'];?></td>
-                        <td><?php echo $employ['status_emp'];?></td>
-                        <td><input type="text" name="salary_emp[]" value="<?= $employ['salary_emp']?>"></td>
+                        <td><input type="text" name="salary_emp[]" value="<?= $employ['salary_emp']?>" required></td>
+                        <td><input type="text" name="security_emp[]" value="<?= $employ['security_emp']?>"></td>
+                        <td><?= $employ['totalsalary_emp']?></td>
                         
                     </tr>
                 <?php endforeach; ?>
@@ -43,7 +45,9 @@
     <h3>รวม</h3>
     <?php echo $sum;?>
     <h3>จ่ายประกันสังคม</h3>
-   <?php echo $sum*(5/100); ?>
+   <?php echo $security; ?>
+    <h3>รวมเงินเดือนที่หักประกันสังคม</h3>
+   <?php echo $total; ?>
    
 </body>
 </html>

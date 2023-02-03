@@ -91,6 +91,10 @@ class Employ extends Controller
         $data['em'] = $NameModel->orderBy('id_emp','ASC')->findAll();
         $e = $NameModel->select('sum(salary_emp) as total')->first();
         $data['sum'] = $e['total'];
+        $se = $NameModel->select('sum(security_emp) as se')->first();
+        $data['security'] = $se['se'];
+        $to = $NameModel->select('sum(totalsalary_emp) as tosalary')->first();
+        $data['total'] = $to['tosalary'];
        
         return view('salary',$data);
         
@@ -152,14 +156,25 @@ class Employ extends Controller
         $get = $this->request->getPost();
         
         for($i = 0;$i<count($get['id_emp']);$i++){
+        if($get['security_emp'][$i])
+        {
+            $total = $get['salary_emp'][$i]-$get['security_emp'][$i];
+        }
+        else
+        {
+            $total=$get['salary_emp'][$i];
+        }
         $data = [
             'salary_emp' => $get['salary_emp'][$i],
+            'security_emp' => $get['security_emp'][$i],
+            'totalsalary_emp' => $total,
         ];
         
         $edit_user->update($get['id_emp'][$i],$data);
-        }
         
+        }
         return redirect()->to(base_url('salary'));
+        
     }
     
 
