@@ -27,7 +27,7 @@
             <?php if($em) :?>
                 <?php foreach($em as $employ) :?>
                     <tr>
-                        <td><input type="hidden" name="id_emp[]" value="<?= $employ['id_emp']?>"><?= $employ['datework_emp'];?></td>
+                        <td><input type="hidden" name="id_emp[]" value="<?= $employ['id_emp']?>"><?= $employ['month'];?></td>
                         <td><?php echo $employ['name_emp'];?></td>
                         <td><?php echo $employ['department_emp'];?></td>
                         <td><?php echo $employ['position_emp'];?></td>

@@ -49,7 +49,7 @@ tr:nth-child(even) {
             <?php if($em) :?>
                 <?php foreach($em as $employ) :?>
                     <tr style="border-color:none;">
-                        <td><?php echo $employ['namo'];?></td>
+                        <td><?php echo $employ['month'];?></td>
                         <td><?php echo $employ['name_emp'];?></td>
                         <td><?php echo $employ['department_emp'];?></td>
                         <td><?php echo $employ['position_emp'];?></td>

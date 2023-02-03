@@ -42,11 +42,11 @@ class Employ extends Controller
         else if($this->request->getPost('search_month'))
         {
             $search = $this->request->getPost('search_month');
-            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as namo,name_emp,department_emp,position_emp,status_emp,salary_emp')->like('datework_emp',"%$search%")->orderBy('id_emp','DESC')->findAll();
+            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp')->like('datework_emp',"%$search%")->orderBy('id_emp','DESC')->findAll();
         }
         else
         {
-            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as namo,name_emp,department_emp,position_emp,status_emp,salary_emp')->orderBy('id_emp','DESC')->findAll();
+            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp')->orderBy('id_emp','DESC')->findAll();
         }
 
         echo view('navbar');
@@ -88,7 +88,7 @@ class Employ extends Controller
     public function salary()
     {
         $NameModel = new Employee();
-        $data['em'] = $NameModel->orderBy('id_emp','ASC')->findAll();
+        $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp,security_emp,totalsalary_emp')->orderBy('id_emp','DESC')->findAll();
         $e = $NameModel->select('sum(salary_emp) as total')->first();
         $data['sum'] = $e['total'];
         $se = $NameModel->select('sum(security_emp) as se')->first();
