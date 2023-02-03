@@ -62,6 +62,10 @@ $routes->get('marketshow', 'Marketing::mar_show');
 //Cgs
 $routes->get('cgs', 'Cgs::index');
 $routes->get('del_cgs/(:num)', 'Cgs::del_cgs/$1');
+
+//Service
+$routes->get('service', 'Service::index');
+$routes->get('del_ser/(:num)', 'Service::del_ser/$1');
 /*
 * --------------------------------------------------------------------
  * Additional Routing
