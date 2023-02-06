@@ -50,7 +50,7 @@ class Employ extends Controller
         }
 
         echo view('navbar');
-        echo view('show_emp',$data);
+        echo view('employee/show_emp',$data);
         // $session->remove('searchmonth');
         
         // $NameModel = new Employee();
@@ -70,18 +70,10 @@ class Employ extends Controller
     //view add employee
     public function add()
     {
-        return view('emp');
+        return view('employee/emp');
     }
 
     //test
-    public function total()
-    {
-        $NameModel = new Employee();
-        $data = $NameModel->select('sum(salary_emp) as total')->first();
-        $total['sum'] = $data['total'];
-       
-         return view('test',$total);
-    }
     //end test
 
     //calculate salary
@@ -96,7 +88,7 @@ class Employ extends Controller
         $to = $NameModel->select('sum(totalsalary_emp) as tosalary')->first();
         $data['total'] = $to['tosalary'];
        
-        return view('salary',$data);
+        return view('salary/salary',$data);
         
     }
 
@@ -121,6 +113,7 @@ class Employ extends Controller
         
         $table_em = new Employee();
         $table_em->insertBatch($main_arr);
+
         
         return redirect()->to(base_url('salary'));
     }
@@ -130,7 +123,7 @@ class Employ extends Controller
     {
         $edit_user = new Employee();
         $data['user'] = $edit_user->where('id_emp',$id)->first();
-        return view('editemploy',$data);
+        return view('employee/editemploy',$data);
     }
     
     //edit employee one by one
@@ -151,7 +144,7 @@ class Employ extends Controller
     //update multiple salary 
     public function updatesalary()
     {
-        $main_arr=array();
+        
         $edit_user = new Employee();
         $get = $this->request->getPost();
         

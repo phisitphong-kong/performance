@@ -53,6 +53,8 @@ class Sga extends Controller
 
       
 
+
+
         $vatsalary = $a['re']*($data['per']/100);
         $profit = $vatsalary-$update['amount'];
         $to = [
@@ -64,24 +66,24 @@ class Sga extends Controller
         $up = $NameModel->select('id_sga')->like('order_sga','ค่าการตลาด')->first();
         $NameModel->update($up['id_sga'],$to);
 
-        return view('sga',$data);
+        return view('sga/sga',$data);
     }
     public function cal()
     {   
         $main_arr=array();
         $get = $this->request->getPost();
-        
         for($i = 0;$i<count($get['order_sga']);$i++){
-        
+        $toall = $get['possible_sga'][$i] - $get['goal_sga'][$i];
         $show = strtotime($get['date_sga'][$i]);
         $data = [
             'date_sga' => date('Y-m-d',$show),
             'order_sga' => $get['order_sga'][$i],
             'goal_sga' => $get['goal_sga'][$i],
             'possible_sga' => $get['possible_sga'][$i],
-            'profitloss_sga' => 0,
+            'profitloss_sga' => $toall,
+            
         ];
-        
+       
         $main_arr[]=$data;
         
         }
@@ -90,6 +92,32 @@ class Sga extends Controller
         $sgatable->insertBatch($main_arr);
         return redirect()->to(base_url('sga'));
     }
+
+    public function updatedata()
+    {
+        $sgatable = new SgaTable();
+        $get = $this->request->getPost();
+        for($i = 0;$i<count($get['id_sga']);$i++){
+           if($get['id_sga'] == 5)
+           { 
+            $result = $get['goal_sga'][$i]-$get['possible_sga'][$i];
+           }
+           else
+           {
+            $result = $get['possible_sga'][$i]-$get['goal_sga'][$i];
+           }
+
+            $up = [
+                'goal_sga' => $get['goal_sga'][$i],
+                'possible_sga' => $get['possible_sga'][$i],
+                'profitloss_sga' => $result,
+            ]; 
+            $sgatable->update($get['id_sga'][$i],$up);
+            
+        }
+        return redirect()->to(base_url('sga'));
+    }
+
     public function del_sga($id)
     {
         $sgatable = new SgaTable();

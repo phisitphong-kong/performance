@@ -22,7 +22,7 @@ class Revenue extends Controller
 
         $pr = $NameModel->select('sum(profitloss_re) as pro')->first();
         $data['profit'] = $pr['pro'];
-        return view('revenue',$data);
+        return view('revenue/revenue',$data);
     }
     public function cal()
     {   

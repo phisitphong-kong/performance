@@ -29,7 +29,7 @@ class Marketing extends Controller
         $am = $NameModel->select('sum(amount_mar) as am')->first();
         $data['amount'] = $am['am'];
        
-        return view('marketshow',$data);
+        return view('market/marketshow',$data);
         
     }
 

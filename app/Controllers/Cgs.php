@@ -23,7 +23,7 @@ class Cgs extends Controller
         $pr = $NameModel->select('sum(profitloss_cgs) as procg')->first();
         $data['profit_cs'] = $pr['procg'];
         
-        return view('cgs',$data);
+        return view('cgs/cgs',$data);
     }
     public function cal()
     {   

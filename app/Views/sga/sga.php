@@ -9,7 +9,7 @@
 </head>
 <body>
     <h3>บันทึกต้นทุนบริหาร-จัดการ</h3>
-    <form action="<?= base_url('Sga/cal')?>" method="post">
+    <form action="<?= base_url('Sga/updatedata')?>" method="post">
 <table class="table">
         <thead>
             <tr>
@@ -22,27 +22,32 @@
                
             </tr>
         </thead>
+        
         <tbody>
             <?php if($sga) :?>
                 <?php foreach($sga as $sga_show) :?>
                     <tr>
-                        <td><?= $sga_show['datesga'];?></td>
+                        <td><input type="hidden" name="id_sga[]" value="<?= $sga_show['id_sga']?>"><?= $sga_show['datesga'];?></td>
                         <td><?= $sga_show['order_sga']; if($sga_show['order_sga'] == 'ค่าการตลาด'){;?>  (<?= $per;?>%)<?php }?></td>
-                        <td><?= $sga_show['goal_sga'];?></td>
-                        <td><?= $sga_show['possible_sga'];?></td>
+                        <td><input type="text" name="goal_sga[]" value="<?= $sga_show['goal_sga'];?>"></td>
+                        <td><input type="text" name="possible_sga[]" value="<?= $sga_show['possible_sga'];?>"></td>
                         <td <?php if($sga_show['profitloss_sga'] < 0){echo 'style="color:red;"';}else{echo 'style="color:#11ff00;"';}?>><?= $sga_show['profitloss_sga'];?></td>
                         <td><?php if($sga_show['id_sga']>12) :?><a href="<?= base_url('del_sga/'.$sga_show['id_sga'])?>" class="btn btn-danger">ลบ</a><?php endif; ?></td>
                     </tr>  
                 <?php endforeach; ?>
             <?php endif; ?>
         </tbody>
-        
-        <tbody id="all">
+    </table>
+    <button type="submit" class="btn btn-primary">บันทึก</button>
+</form>
+
+    <form action="<?= base_url('Sga/cal');?>" method="post">
+    <table>
+    <tbody id="all">
         </tbody>
     </table>
     <button type="button" class="btn btn-outline-primary" name="add" id="add">เพิ่มรายการ</button>
-    <br>
-    <button type="submit" class="btn btn-primary">บันทึก</button>
+    <button type="submit" class="btn btn-success">ยืนยัน</button>
     </form>
     <h3>รวมเป้าหมาย</h3>
     <?php echo $go_sga;?>

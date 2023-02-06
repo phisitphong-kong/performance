@@ -1,0 +1,731 @@
+ERROR - 2023-02-05 00:47:18 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cp', 3306, '', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#3 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-05 00:47:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(date_sga, "%M %Y") as datesga, `id_sga`, `order_sga`, `goal_sga`, `possible_sga`, `profitloss_sga`
+FROM `sga`
+ORDER BY `id_sga` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 00:47:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cp', 3306, '', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#3 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-05 00:47:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(date_sga, "%M %Y") as datesga, `id_sga`, `order_sga`, `goal_sga`, `possible_sga`, `profitloss_sga`
+FROM `sga`
+ORDER BY `id_sga` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 00:47:41 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cp', 3306, '', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_emp`...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\performance\app\Controllers\Employ.php(91): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Employ->salary()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_emp`...', Array, false)
+#3 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\performance\app\Controllers\Employ.php(91): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Employ->salary()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-05 00:47:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_emp`, DATE_FORMAT(datework_emp, "%M %Y") as month, `name_emp`, `department_emp`, `position_emp`, `status_emp`, `salary_emp`, `security_emp`, `totalsalary_emp`
+FROM `employee`
+ORDER BY `id_emp` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Employ.php(91): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->salary()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 00:47:45 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cp', 3306, '', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_emp`...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\performance\app\Controllers\Employ.php(91): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Employ->salary()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_emp`...', Array, false)
+#3 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\performance\app\Controllers\Employ.php(91): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Employ->salary()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-05 00:47:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `id_emp`, DATE_FORMAT(datework_emp, "%M %Y") as month, `name_emp`, `department_emp`, `position_emp`, `status_emp`, `salary_emp`, `security_emp`, `totalsalary_emp`
+FROM `employee`
+ORDER BY `id_emp` DESC', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Employ.php(91): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->salary()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 02:08:06 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cp', 3306, '', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#3 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-05 02:08:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(date_sga, "%M %Y") as datesga, `id_sga`, `order_sga`, `goal_sga`, `possible_sga`, `profitloss_sga`
+FROM `sga`
+ORDER BY `id_sga` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 02:08:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cp', 3306, '', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#3 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-05 02:08:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(date_sga, "%M %Y") as datesga, `id_sga`, `order_sga`, `goal_sga`, `possible_sga`, `profitloss_sga`
+FROM `sga`
+ORDER BY `id_sga` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-05 02:08:23 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'cp', 3306, '', 0)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#4 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#9 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\performance\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\performance\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\performance\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#3 C:\xampp\htdocs\performance\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\performance\system\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\performance\app\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\performance\system\CodeIgniter.php(925): App\Controllers\Sga->index()
+#7 C:\xampp\htdocs\performance\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+#8 C:\xampp\htdocs\performance\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\performance\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\performance\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-02-05 02:08:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(date_sga, "%M %Y") as datesga, `id_sga`, `order_sga`, `goal_sga`, `possible_sga`, `profitloss_sga`
+FROM `sga`
+ORDER BY `id_sga` ASC', [], false)
+ 3 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Sga.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 02:13:56 --> Invalid file: welcome.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome')
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:34:07 --> Undefined array key "id_rga"
+in APPPATH\Controllers\Sga.php on line 104.
+ 1 APPPATH\Controllers\Sga.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rga"', 'APPPATH\\Controllers\\Sga.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:35:20 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 101.
+ 1 APPPATH\Controllers\Sga.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:35:44 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 102.
+ 1 APPPATH\Controllers\Sga.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:36:10 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 102.
+ 1 APPPATH\Controllers\Sga.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:36:40 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 102.
+ 1 APPPATH\Controllers\Sga.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:37:13 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 102.
+ 1 APPPATH\Controllers\Sga.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:38:49 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 102.
+ 1 APPPATH\Controllers\Sga.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:38:57 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 74.
+ 1 APPPATH\Controllers\Sga.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:39:06 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 102.
+ 1 APPPATH\Controllers\Sga.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:44:16 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 74.
+ 1 APPPATH\Controllers\Sga.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:58:15 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 100.
+ 1 APPPATH\Controllers\Sga.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 03:59:24 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 100.
+ 1 APPPATH\Controllers\Sga.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:00:57 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 100.
+ 1 APPPATH\Controllers\Sga.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:01:10 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 101.
+ 1 APPPATH\Controllers\Sga.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 101)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:01:47 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 74.
+ 1 APPPATH\Controllers\Sga.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 74)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:11:00 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 100.
+ 1 APPPATH\Controllers\Sga.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:12:33 --> Undefined variable $result
+in APPPATH\Controllers\Sga.php on line 109.
+ 1 APPPATH\Controllers\Sga.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Controllers\\Sga.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:18:36 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 73.
+ 1 APPPATH\Controllers\Sga.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:20:11 --> Undefined array key "id_rga"
+in APPPATH\Controllers\Sga.php on line 73.
+ 1 APPPATH\Controllers\Sga.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rga"', 'APPPATH\\Controllers\\Sga.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:20:50 --> Undefined array key "id_rga"
+in APPPATH\Controllers\Sga.php on line 73.
+ 1 APPPATH\Controllers\Sga.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_rga"', 'APPPATH\\Controllers\\Sga.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:56:43 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:57:33 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:58:51 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:59:03 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:59:25 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 04:59:35 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 05:01:42 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 05:02:23 --> Undefined array key "order_sga"
+in APPPATH\Controllers\Sga.php on line 75.
+ 1 APPPATH\Controllers\Sga.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "order_sga"', 'APPPATH\\Controllers\\Sga.php', 75)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:00:30 --> Unsupported operand types: array - array
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:01:17 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:03:52 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:05:38 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:08:48 --> Undefined variable $per
+in APPPATH\Views\sga.php on line 31.
+ 1 APPPATH\Views\sga.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $per', 'APPPATH\\Views\\sga.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('sga', [], true)
+ 5 APPPATH\Controllers\Sga.php(69): view('sga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:08:50 --> Undefined variable $per
+in APPPATH\Views\sga.php on line 31.
+ 1 APPPATH\Views\sga.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $per', 'APPPATH\\Views\\sga.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\sga.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('sga', [], true)
+ 5 APPPATH\Controllers\Sga.php(69): view('sga', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:09:14 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:09:36 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:09:58 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:18:28 --> Array to string conversion
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 APPPATH\Controllers\Sga.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\Sga.php', 76)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:19:35 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:20:00 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:20:21 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:22:00 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:22:49 --> Unsupported operand types: array - array
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:23:01 --> Unsupported operand types: array - array
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 06:24:54 --> Undefined variable $re
+in APPPATH\Controllers\Sga.php on line 79.
+ 1 APPPATH\Controllers\Sga.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $re', 'APPPATH\\Controllers\\Sga.php', 79)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 20:42:22 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Sga.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->cal()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 21:45:20 --> Undefined array key "id_sga"
+in APPPATH\Controllers\Sga.php on line 100.
+ 1 APPPATH\Controllers\Sga.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_sga"', 'APPPATH\\Controllers\\Sga.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 21:56:22 --> Undefined array key 7
+in APPPATH\Controllers\Sga.php on line 107.
+ 1 APPPATH\Controllers\Sga.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 7', 'APPPATH\\Controllers\\Sga.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 22:01:42 --> Undefined array key 9
+in APPPATH\Controllers\Sga.php on line 107.
+ 1 APPPATH\Controllers\Sga.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 9', 'APPPATH\\Controllers\\Sga.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Sga->updatedata()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sga))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 23:51:12 --> Invalid file: salary.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salary.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('salary', [], true)
+ 3 APPPATH\Controllers\Employ.php(91): view('salary', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->salary()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 23:51:12 --> Invalid file: salary.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('salary.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('salary', [], true)
+ 3 APPPATH\Controllers\Employ.php(91): view('salary', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Employ->salary()
+ 5 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Employ))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

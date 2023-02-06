@@ -23,7 +23,7 @@ class Service extends Controller
         $pr = $NameModel->select('sum(profitloss_ser) as proser')->first();
         $data['profit_ser'] = $pr['proser'];
         
-        return view('service',$data);
+        return view('service/service',$data);
     }
     public function cal()
     {   
