@@ -20,7 +20,7 @@ tr:nth-child(even) {
 <body>
     <div class="container">
     <h3>ข้อมูลของพนักงาน</h3>
-    <form action="<?= base_url('employ')?>" method="post">
+    <form action="<?= base_url('Employ')?>" method="post">
         <input type="text" name="research" value="<?= set_value('research');?>" placeholder="Search">
         <button class="btn btn-dark" type="submit">ค้นหา</button>
     </form>
@@ -41,6 +41,8 @@ tr:nth-child(even) {
                 <th>ตำแหน่ง</th>
                 <th>สถานะ</th>
                 <th>เงินเดือน</th>
+                <th>ประกันสังคม</th>
+                <th>หลังหักประกันสังคม</th>
                 <th>จัดการ</th>
                 
             </tr>
@@ -55,6 +57,8 @@ tr:nth-child(even) {
                         <td><?php echo $employ['position_emp'];?></td>
                         <td <?php if($employ['status_emp'] == 'ลาออก'){?>style="color:red;"<?php }else{?>style="color:#11ff00;"<?php }?>><?php echo $employ['status_emp'];?></td>
                         <td><?php echo $employ['salary_emp'];?></td>
+                        <td><?php echo $employ['security_emp'];?></td>
+                        <td><?php echo $employ['totalsalary_emp'];?></td>
                         <td><a class="btn btn-danger" style="border-radius:20px;" href="<?= base_url('edituser/'.$employ['id_emp'])?>">แก้ไข</a></td>
                         
                     </tr>

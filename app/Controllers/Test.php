@@ -1,8 +1,8 @@
 <?php namespace App\Controllers;
-
+use App\Models\TestLocalTable;
 use CodeIgniter\Controller;
 
-class Date extends Controller
+class Test extends Controller
 {
     public function __construct()
     {
@@ -11,11 +11,7 @@ class Date extends Controller
 
     public function index()
     {
-        return view('testdate');
+        $data['date'] = $this->request->getPost('date');
+        echo view('testdate',$data);
     }
-    public function test()
-    {
-        echo $this->request->getPost('date');
-    }
-
 }

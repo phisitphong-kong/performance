@@ -25,31 +25,34 @@ class Employ extends Controller
         $NameModel = new Employee();
        
         // $data['search_m'] = $search;
-
+        
         if($this->request->getPost('research'))
         {  
             
              $research = $this->request->getPost('research');
-             $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as namo,name_emp,department_emp,position_emp,status_emp,salary_emp')
+             $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp,security_emp,totalsalary_emp')
              ->like('datework_emp',"%$research%")
              ->orLike('name_emp',"%$research%")
              ->orLike('department_emp',"%$research%")
              ->orLike('position_emp',"%$research%")
              ->orLike('status_emp',"%$research%")
              ->orLike('salary_emp',"%$research%")
+             ->orLike('security_emp',"%$research%")
+             ->orLike('totalsalary_emp',"%$research%")
              ->orderBy('id_emp','DESC')->findAll();
+            
         }
         else if($this->request->getPost('search_month'))
         {
             $search = $this->request->getPost('search_month');
-            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp')->like('datework_emp',"%$search%")->orderBy('id_emp','DESC')->findAll();
+            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp,security_emp,totalsalary_emp')->like('datework_emp',"%$search%")->orderBy('id_emp','DESC')->findAll();
         }
         else
         {
-            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp')->orderBy('id_emp','DESC')->findAll();
+            $data['em'] = $NameModel->select('id_emp,DATE_FORMAT(datework_emp,"%M %Y") as month,name_emp,department_emp,position_emp,status_emp,salary_emp,security_emp,totalsalary_emp')->orderBy('id_emp','DESC')->findAll();
         }
 
-        echo view('navbar');
+        // echo view('navbar');
         echo view('employee/show_emp',$data);
         // $session->remove('searchmonth');
         

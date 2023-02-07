@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="<?= base_url('date/test')?>" method="post">
-    <input type="month" name="date">เวลา
+    <form action="<?= base_url('Test')?>" method="post">
+    <input type="month" name="date" value="<?= $date?>">เวลา
     <button type="submit">sub</button>
     </form>
 </body>
